@@ -21,6 +21,8 @@
 		AE58183D192BA6640097AB49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE58181F192BA6640097AB49 /* UIKit.framework */; };
 		AE581845192BA6640097AB49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE581843192BA6640097AB49 /* InfoPlist.strings */; };
 		AE581847192BA6640097AB49 /* DragonFashionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE581846192BA6640097AB49 /* DragonFashionTests.m */; };
+		AE581852192BAD500097AB49 /* Dragon.m in Sources */ = {isa = PBXBuildFile; fileRef = AE581851192BAD500097AB49 /* Dragon.m */; };
+		AE581855192BC2BF0097AB49 /* DragonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE581854192BC2BF0097AB49 /* DragonDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		AE581842192BA6640097AB49 /* DragonFashionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragonFashionTests-Info.plist"; sourceTree = "<group>"; };
 		AE581844192BA6640097AB49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE581846192BA6640097AB49 /* DragonFashionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragonFashionTests.m; sourceTree = "<group>"; };
+		AE581850192BAD500097AB49 /* Dragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dragon.h; sourceTree = "<group>"; };
+		AE581851192BAD500097AB49 /* Dragon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dragon.m; sourceTree = "<group>"; };
+		AE581853192BC2BF0097AB49 /* DragonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragonDetailViewController.h; sourceTree = "<group>"; };
+		AE581854192BC2BF0097AB49 /* DragonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragonDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				AE58182D192BA6640097AB49 /* Main.storyboard */,
 				AE581830192BA6640097AB49 /* ViewController.h */,
 				AE581831192BA6640097AB49 /* ViewController.m */,
+				AE581850192BAD500097AB49 /* Dragon.h */,
+				AE581851192BAD500097AB49 /* Dragon.m */,
+				AE581853192BC2BF0097AB49 /* DragonDetailViewController.h */,
+				AE581854192BC2BF0097AB49 /* DragonDetailViewController.m */,
 				AE581833192BA6640097AB49 /* Images.xcassets */,
 				AE581822192BA6640097AB49 /* Supporting Files */,
 			);
@@ -251,6 +261,8 @@
 			files = (
 				AE581832192BA6640097AB49 /* ViewController.m in Sources */,
 				AE58182C192BA6640097AB49 /* AppDelegate.m in Sources */,
+				AE581855192BC2BF0097AB49 /* DragonDetailViewController.m in Sources */,
+				AE581852192BAD500097AB49 /* Dragon.m in Sources */,
 				AE581828192BA6640097AB49 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

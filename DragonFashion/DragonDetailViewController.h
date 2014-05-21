@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DragonDetailViewController.h
 //  DragonFashion
 //
 //  Created by teacher on 5/20/14.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Dragon.h"
 
-@interface ViewController : UIViewController
 
-@property NSArray *dragons;
+@interface DragonDetailViewController : UIViewController
+@property Dragon *dragon;
 
 @end
